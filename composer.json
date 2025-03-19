@@ -1,5 +1,5 @@
 {
-    "name": "anodyne/laravel-embed",
+    "name": "bensampo/laravel-embed",
     "type": "library",
     "description": "Painless responsive embeds for videos, slideshows and more.",
     "keywords": [
@@ -24,6 +24,7 @@
     ],
     "require": {
         "php": "^7.4.0|^8.0",
+        "bensampo/laravel-embed": "dev-master@dev",
         "guzzlehttp/guzzle": "^6.3.1|^7.0",
         "illuminate/contracts": "^8.83.27|^9.0|^10.0|^11.0|^12.0",
         "illuminate/support": "^8.83.27|^9.0|^10.0|^11.0|^12.0"
