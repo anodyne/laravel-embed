@@ -8,8 +8,8 @@ Created by <a href="https://sampo.co.uk">Ben Sampson</a>
 </p>
 
 <p align="center">
-<a href="https://packagist.org/packages/bensampo/laravel-embed"><img src="https://img.shields.io/packagist/v/bensampo/laravel-embed.svg?style=flat-square&label=stable" alt="Packagist Stable Version"></a>
-<a href="https://packagist.org/packages/bensampo/laravel-embed"><img src="https://img.shields.io/packagist/dt/bensampo/laravel-embed.svg?style=flat-square" alt="Packagist downloads"></a>
+<a href="https://packagist.org/packages/anodyne/laravel-embed"><img src="https://img.shields.io/packagist/v/anodyne/laravel-embed.svg?style=flat-square&label=stable" alt="Packagist Stable Version"></a>
+<a href="https://packagist.org/packages/anodyne/laravel-embed"><img src="https://img.shields.io/packagist/dt/anodyne/laravel-embed.svg?style=flat-square" alt="Packagist downloads"></a>
 <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT Software License"></a>
 </p>
 
@@ -23,7 +23,7 @@ Created by <a href="https://sampo.co.uk">Ben Sampson</a>
 ### 1. Composer
 
 ```bash
-composer require bensampo/laravel-embed
+composer require anodyne/laravel-embed
 ```
 
 ### 2. Include styles
@@ -34,7 +34,7 @@ Somewhere inside the `<head>` element of the document, include:
 <x-embed-styles />
 ```
 
-If you'd prefer to include the styles in your own CSS file, you may copy the contents of [`styles.blade.php`](https://github.com/BenSampo/laravel-embed/blob/master/resources/views/components/styles.blade.php).
+If you'd prefer to include the styles in your own CSS file, you may copy the contents of [`styles.blade.php`](https://github.com/anodyne/laravel-embed/blob/master/resources/views/components/styles.blade.php).
 
 ### 3. Publish views (optional)
 
@@ -110,6 +110,6 @@ public function store(Request $request)
 
 Laravel embed supports multiple popular embed services such as YouTube, Vimeo and Slideshare.
 
-[See the full list &rarr;](https://github.com/BenSampo/laravel-embed/tree/master/src/Services)
+[See the full list &rarr;](https://github.com/anodyne/laravel-embed/tree/master/src/Services)
 
 Please submit an issue (or better yet a PR!) if the service you'd like to embed is not listed.

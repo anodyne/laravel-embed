@@ -1,5 +1,5 @@
 {
-    "name": "bensampo/laravel-embed",
+    "name": "anodyne/laravel-embed",
     "type": "library",
     "description": "Painless responsive embeds for videos, slideshows and more.",
     "keywords": [
@@ -8,12 +8,17 @@
         "laravel",
         "package"
     ],
-    "homepage": "https://github.com/bensampo/laravel-embed",
+    "homepage": "https://github.com/anodyne/laravel-embed",
     "license": "MIT",
     "authors": [
         {
             "name": "Ben Sampson",
             "homepage": "https://sampo.co.uk",
+            "role": "Developer"
+        },
+        {
+            "name": "David VanScott",
+            "homepage": "https://anodyne-productions.com",
             "role": "Developer"
         }
     ],
