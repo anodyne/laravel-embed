@@ -1,5 +1,5 @@
 {
-    "name": "anodyne/laravel-embed",
+    "name": "bensampo/laravel-embed",
     "type": "library",
     "description": "Painless responsive embeds for videos, slideshows and more.",
     "keywords": [
